@@ -1,5 +1,10 @@
+
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 
 // Typography Styles
 h1, h2, h3 {
@@ -33,6 +38,7 @@ h1, h2, h3 {
   }
 }
 
+
 // Home Page Styles
 .home-callout {
   color: white;
@@ -40,3 +46,4 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
