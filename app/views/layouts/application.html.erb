@@ -11,36 +11,28 @@
 <body>
 
  <!-- navbar start -->
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class='container'>
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      
-        <!-- lists of brand names, positioned at top of the browser -->
-      <a class="navbar-brand" href="#">Coca.LTD</a>
-         </div>
-          <!-- end of, brands names-->
-          
-          
-     <!-- DIV BLOCK = Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
-         <!-- lists names at top of the browser -->
-         <ul class="nav navbar-nav">
-             <li><a href='/about'>About</a></li>
-            </ul>
-         <!-- end of, lists names at top of the browser-->
-        
-        <!--                          navbar end                                      -->
-<div class='container'>
-                      <%= yield %>
+      <a href="/" class="navbar-brand">SaaS</a>
     </div>
+    <div class="collapse navbar-collapse" id="main-nav-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+
+                      <%= yield %>
+   
     
     
   </body>
