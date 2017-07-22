@@ -2,3 +2,14 @@
 @import 'bootstrap';
 
 h1, h2, h3 {font-family: 'Open Sans', sans-serif;}
+
+body, .navbar{
+    background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+//kill white line between navbar and body blue color thing...
+.navbar {
+  border: none;
+}
