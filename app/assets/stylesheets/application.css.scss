@@ -21,3 +21,20 @@ background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, F
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
+
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
+}
