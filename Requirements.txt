@@ -13,3 +13,15 @@ should validate the user fields. Rails app will note whether plan 1 or plan 2.
 * Once validated, Rails should send user info (email, plan id) and card token
 to Stripe server and Stripe will create a subscription and send back customer
 token. Rails should save customer token and user information to our database.
+
+//Поставить код ДЖС в типичную функцию "начать код, после готовности всей страницы"
+//Получить публичный ключ страпа----так они узнают что это наш сайт....
+//Когда пользователь нажимает "отослать форму" не разрешать данным, 
+//идти прямо на сервер ДО попадания в Страйп и формирования ТОКЕНА"
+
+//Собрать поля кредитной карты
+//Послать инф. карты в Страйп
+//Страйп вернет токен карты
+
+//Инджект-вставить токен карты в спрятанную команду в форме НТМЛ
+//Принять форму на реилс сервер
