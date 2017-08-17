@@ -25,6 +25,8 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
+
 .navbar {
   border: none;
 }
@@ -32,11 +34,13 @@ h1, h2, h3 {
 .navbar {
   border: none;
 }
-body, .navbar {
+.navbar {
   //Gradient provided by @_ighosh at uiGradients.com
-  background: #00c6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  background: #070000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #070000, #4C0001, #070000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #070000, #4C0001, #070000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .navbar-default .navbar-brand,
@@ -84,3 +88,137 @@ body, .navbar {
     background-color: #00c6ff;
   }
 }
+
+
+
+//----------my addons about drop down buttons from w3schools
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+//------my addons to searching form
+#searchingFORM{
+padding-top: 10px;
+}
+
+
+
+
+
+//-----------------------------after nav bar+++++ core body structure = center+sides+down-!!
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      //background-color: #555;
+      color: black;
+      padding: 15px;
+      width: 940px;
+      height: 100px;
+   
+      display: absolute;
+      position: relative;
+      
+      background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ //Gradient provided by @_ighosh at uiGradients.com
+  }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+    
+    
+    
+    //-----------------------------------personal fixes(hand made):
+    
+   body{
+      background: url('https://cdn.pixabay.com/photo/2017/05/07/04/13/sky-2291602__340.jpg');
+margin: 0 auto; 
+background-size: cover;
+display: relative;
+    }
+    #ISLcolor{
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+ //Gradient provided by @_ighosh at uiGradients.com
+    }
+    #ISRcolor{
+background: #fceabb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ //Gradient provided by @_ighosh at uiGradients.com
+    }
+    
+
+    .footerSocial{
+      display: inline; position: relative;
+    }
+  

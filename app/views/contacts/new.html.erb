@@ -1,9 +1,7 @@
 <div class="container">
   <div class="row">
-    <h3 class="text-center">Contact Us</h3>
-    
-    <div class="col-md-4 col-md-offset-4">
-      
+      <div class="col-md-4 col-md-offset-0">
+      <h3>Обратная связь</h3>
             
                        <% flash.each do |type, msg| %>
   <%= content_tag :div, msg, class: "alert alert-#{type}" %>
@@ -15,21 +13,35 @@
                          <%= form_for @contact do |f| %>
         
           <div class="form-group">
+            
             <%= f.label :name %>
             <%= f.text_field :name, class: 'form-control' %>
           </div>
           <div class="form-group">
+            
             <%= f.label :email %>
             <%= f.text_field :email, class: 'form-control' %>
           </div>
           <div class="form-group">
+           
             <%= f.label :comments %>
             <%= f.text_area :comments, class: 'form-control' %>
           </div>
           
           <%= f.submit 'Submit', class: 'btn btn-default' %>
         <% end %>
+        
       </div>
-    </div>
+          </div>
+    
+       <div class="text-center" >
+       <img class="col-md-4 col-md-offset-0" src='http://www.yck.com.ua//files/image/filiales/kievsmall.jpg' />
+                     <h1> Альтернативная связь</h1>
+                      <p><span>ЧАСТНОЕ АКЦИОНЕРНОЕ ОБЩЕСТВО&nbsp;</span></p>
+                      <p> <span>«УКРАИНСКИЙ СТРАХОВОЙ КАПИТАЛ» &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(ЧАО «УСК»)</span></p>
+                      <p>ЕГРПОУ 23707357</p>
+                      <p><span>Местонахождение по КОАТТУ:&nbsp;</span></p>
+                      <p>8038600000 03062 м. Киев, Святошинский р-н, проспект Победы, дом,67, 6-й этаж (метро «Нивки»)</p>
+                  </div>    
   </div>
-</div>
+    </div>
